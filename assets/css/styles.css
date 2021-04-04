@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
+  --first-color: #e4e13e;
   --second-color: #0E2431;
 }
 
@@ -53,6 +53,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
+  background-image: linear-gradient(to right top, #1e4e96, #007abb, #00a2c2, #00c7ae, #73e78e);
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -116,8 +117,9 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color:#4DCCCE;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
+  
 }
 
 /*===== NAV =====*/
@@ -161,7 +163,12 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  
 }
+
 .nav__toggle{
   color: var(--second-color);
   font-size: 1.5rem;
