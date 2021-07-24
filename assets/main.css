@@ -396,7 +396,8 @@ header {
     background-color: #50a9d6;
   }
 
-  .dropdown {
+  .dropdown,
+  .dropdown.second {
     position: initial;
     top: initial;
     left: initial;
